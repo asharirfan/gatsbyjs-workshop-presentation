@@ -66,4 +66,41 @@ Open the website folder in a text editor
 
 ---
 
+# 🌍 Hosting Website on Linode
+
+→ Build your Gatsby website using `gatsby build` command.
+
+→ Login to [Linode](https://www.linode.com) & create a linode server.
+
+→ Install Ubuntu Latest LTS — Long Term Support — version on it.
+
+→ Login to the server using SSH.
+
+---
+
+# 🌍 Hosting Website on Linode
+
+→ Install easy engine on this server.
+
+→ Create a new website using easy engine.
+
+```
+wget -qO ee rt.cx/ee && sudo bash ee # Install easy engine.
+ee site create LINODE_SERVER_IP_ADDRESS —html # Create new website.
+```
+
+---
+
+# 🌍 Hosting Website on Linode
+
+→ Upload the build gatsby site files to the
+
+ee site `htdocs` folder using SFTP.
+
+→ Browse to your *LINODE_SERVER_IP_ADDRESS* in your browser
+
+🎊 Voilà
+
+---
+
 # ☝️ Q/A
